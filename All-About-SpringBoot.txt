@@ -1,0 +1,47 @@
+
+Buradayız : https://livebook.manning.com/book/spring-boot-in-practice/chapter-2/173
+
+
+The Spring team had launched Spring Boot in 2013
+
+I sincerely hope that readers appreciate and benefit from the contents of this book
+and find it useful in their Spring Boot application development. Any remarks or suggestions for improving the content of the book are most welcome and eagerly awaited.
+You may reach the author on LinkedIn at https://www.linkedin.com/in/musibs/.
+
+You can get executable snippets of code from the liveBook (online) version of this
+book at https://livebook.manning.com/book/spring-boot-in-practice. The complete
+code for the examples in the book is available for download from the Manning website at www.manning.com/books/spring-boot-in-practice, and from GitHub at https://
+github.com/spring-boot-in-practice/repo.
+
+For instance, if you would like to run the current Spring Boot application, you can execute the following command in command-line or terminal from the same directory where pom.xml is located: 
+
+**************** mvn spring-boot:run ********************
+**************** mvn dependency:tree ********************
+**************** mvn package         ********************
+	java -jar config-data-file-0.0.1-SNAPSHOT.jar --spring.config.name=sbip
+Listing 2.7 Executing a Spring Boot application with spring.config.location property
+	java -jar target\config-data-file-0.0.1-SNAPSHOT.jar --spring.config.location=C:\sbip\repo\ch02\config-data-file\data\sbip.yml
+
+
+By default, Spring Boot reads the application.properties or application.yml file from the following locations:
+
+1. The classpath root
+2. The classpath /config package
+3. The current directory
+4. The /config subdirectory in the current directory
+5. Immediate child directories of the /config subdirectory
+
+The higher sequence number overrides the properties of the lower sequence number:
+
+1. SpringApplication
+2. @PropertySource
+3. Config data file
+4. OS environment variable
+5. Command line arguments
+
+Listing 2.11 Spring Boot configuration processor
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-configuration-processor</artifactId>
+    <optional>true</optional>
+</dependency>

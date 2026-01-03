@@ -1,0 +1,11 @@
+
+****************************************** REDIS - Remote Dictionary Server ******************************
+Redis, açık kaynaklı (open-source), bellek içi (in-memory) bir veri yapısı deposudur.
+Genellikle veritabanı, önbellek (cache) ve mesaj kuyruk sistemi olarak kullanılır.
+"Remote Dictionary Server" kelimelerinin kısaltmasıdır.
+
+****************************************** WSL 2 - Windows Subsystem for Linux 2 ******************************
+WSL 2 (Windows Subsystem for Linux 2), Microsoft tarafından geliştirilen ve Windows işletim sistemi üzerinde
+tam işlevsel bir Linux çekirdeği çalıştırmanıza olanak tanıyan bir altyapıdır.
+WSL 2, WSL 1'e göre birçok gelişmiş özellik sunar ve Linux dağıtımlarını Windows ortamında doğal bir şekilde
+çalıştırmanızı sağlar.

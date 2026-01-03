@@ -1,0 +1,54 @@
+Alış
+
+
+https://sube.garantibbva.com.tr/isube/investments/stocksnew/equitybuy3ok
+Request Method
+POST
+
+stock=IEYHO&orderClass=Al%C4%B1%C5%9F&orderType=Piyasa%20Emirleri&orderDuration=Kalan%C4%B1%20%C4%B0ptal%20Et&stockCount=168&equityPrice=63.8500&stockAmount=10726.80&commissionPercentage=%250%2C199&commissionAmount=21.35&price=10748.15&advancedSignatureData=ADS&_csrf=dc8cf03a-06e1-40af-a5d6-ed1b27cfa713&targetAreaId=content&pNavId=5&cInfoBean.v=2560x1440%C2%B15%C2%B1H%C2%B102.12.2025%C2%B116.20.29%C2%B1Tue%2C%2002%20Dec%202025%2013%3A20%3A29%20GMT%C2%B1Y
+
+
+stock                 IEYHO
+orderClass            Al%C4%B1%C5%9F
+orderType             Piyasa%20Emirleri
+orderDuration         Kalan%C4%B1%20%C4%B0ptal%20Et
+stockCount            168
+equityPrice           63.8500
+stockAmount           10726.80
+commissionPercentage  %250%2C199
+commissionAmount      21.35
+price                 10748.15
+advancedSignatureData ADS
+_csrf                 dc8cf03a-06e1-40af-a5d6-ed1b27cfa713
+targetAreaId          content
+pNavId                5
+cInfoBean.v           2560x1440%C2%B15%C2%B1H%C2%B102.12.2025%C2%B116.20.29%C2%B1Tue%2C%2002%20Dec%202025%2013%3A20%3A29%20GMT%C2%B1Y
+
+
+
+
+Satış
+
+
+https://sube.garantibbva.com.tr/isube/investments/stocksnew/equitysell3ok
+Request Method
+POST
+
+selectedEquityCode=IEYHO&orderClass=Sat%C4%B1%C5%9F&orderType=Piyasa%20Emirleri&orderDuration=Kalan%C4%B1%20%C4%B0ptal%20Et&stockCount=168&equityPrice=52.2500&stockAmount=8778.00&commissionPercentage=%250%2C199%20&commissionAmount=17.47&price=8760.53&advancedSignatureData=ADS&_csrf=dc8cf03a-06e1-40af-a5d6-ed1b27cfa713&targetAreaId=content&pNavId=5&cInfoBean.v=2560x1440%C2%B15%C2%B1H%C2%B102.12.2025%C2%B116.34.25%C2%B1Tue%2C%2002%20Dec%202025%2013%3A34%3A25%20GMT%C2%B1Y
+
+selectedEquityCode    IEYHO
+orderClass            Sat%C4%B1%C5%9F
+orderType             Piyasa%20Emirleri
+orderDuration         Kalan%C4%B1%20%C4%B0ptal%20Et
+stockCount            168
+equityPrice           52.2500
+stockAmount           8778.00
+commissionPercentage  %250%2C199%20
+commissionAmount      17.47
+price                 8760.53
+advancedSignatureData ADS
+_csrf                 dc8cf03a-06e1-40af-a5d6-ed1b27cfa713
+targetAreaId          content
+pNavId                5
+cInfoBean.v           2560x1440%C2%B15%C2%B1H%C2%B102.12.2025%C2%B116.34.25%C2%B1Tue%2C%2002%20Dec%202025%2013%3A34%3A25%20GMT%C2%B1Y
+
